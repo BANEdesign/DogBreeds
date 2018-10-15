@@ -22,7 +22,6 @@ class DogDetailActivity : AppCompatActivity() {
                     .into(imageView)
             supportActionBar?.title = parseBreedFromUrl(it)
         }
-
         imageView.setOnClickListener{
             finish()
         }
