@@ -7,6 +7,9 @@ import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.view.*
+import com.bryonnabaines.dogbreedlist.R
+import com.bryonnabaines.dogbreedlist.models.DogList
+import com.bryonnabaines.dogbreedlist.viewModels.DogBreedListViewModel
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
